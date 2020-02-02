@@ -26,5 +26,3 @@ jobs:
       - run: 
           name: Run tests
           command: go test -v ./...
-          environment:
-            COVERALLS_REPO_TOKEN: ${COVERALLS_TOKEN}
